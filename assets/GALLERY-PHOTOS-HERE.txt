@@ -1,0 +1,29 @@
+GALLERY KE LIYE ORIGINAL PHOTOS YAHAN DAALO
+===========================================
+
+Gallery section ("Ek jhalak hamare junction ki") me apni 5-6 best
+ORIGINAL photos lagani hain. Bas inhe is "assets" folder me save karo,
+in EXACT naamon se (chhote letters me):
+
+    gallery1.jpg
+    gallery2.jpg
+    gallery3.jpg
+    gallery4.jpg
+    gallery5.jpg
+    gallery6.jpg
+
+(6 se kam bhi chalega — jitni daloge utni asli dikhengi, baaki jagah
+placeholder reh jayega.)
+
+PHOTO KAHAN SE LO (best quality ke liye):
+- Apne phone ki gallery ya Instagram (@gyanpurjunction) ki original photos
+  sabse acchi rahengi.
+- Ya Google listing se photo ka screenshot le lo.
+
+NOTE:
+- File ka naam bilkul yahi ho — gallery1.jpg, gallery2.jpg ...
+- Agar photos PNG hain (gallery1.png) ya naam alag hai, to mujhe bata dena,
+  main code adjust kar dunga.
+
+Photos daalne ke baad mujhe bol dena — main GitHub pe push kar dunga
+aur Vercel pe live ho jayengi.
