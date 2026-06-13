@@ -1,0 +1,17 @@
+LOGO AB CODE KE ANDAR EMBED HAI ✅
+==================================
+
+Ab logo ko alag se upload karne ki ZAROORAT NAHI hai.
+Logo seedhe code me (Base64) embed kar diya gaya hai:
+  - styles.css ke andar  -> navbar, hero aur footer ka logo
+  - index.html ke andar   -> browser tab ka icon (favicon)
+
+Isliye GitHub/Vercel pe ab logo har jagah dikhega, bina koi image file
+upload kiye.
+
+Agar BAAD ME logo badalna ho:
+1. Naya logo "assets/logo.png" naam se yahan save karo.
+2. Mujhe bol dena — main code me naya Base64 update kar dunga.
+   (ya khud se purana data:image/png;base64,... wala part badalna padega)
+
+logo.png ko yahan rehne do — ye logo ka original/source hai.
