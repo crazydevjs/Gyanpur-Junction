@@ -334,9 +334,9 @@
   /* ---- Send order to WhatsApp ---- */
   document.getElementById('sendWa').addEventListener('click', function () {
     var ids = Object.keys(cart);
-    if (!ids.length) { alert('Pehle menu se kuch add karein.'); return; }
+    if (!ids.length) { alert('Please add something from the menu first.'); return; }
     var t = totals();
-    var lines = ['*Naya Order — ' + CAFE_NAME + '*', ''];
+    var lines = ['*New Order — ' + CAFE_NAME + '*', ''];
     var i = 1;
     ids.forEach(function (id) {
       var c = cart[id];
@@ -347,7 +347,7 @@
     lines.push('*Total: ₹' + t.sum + '*');
     var name = document.getElementById('custName').value.trim();
     var addr = document.getElementById('custAddr').value.trim();
-    if (name) lines.push('', '*Naam:* ' + name);
+    if (name) lines.push('', '*Name:* ' + name);
     if (addr) lines.push('*Address / Table:* ' + addr);
     var url = 'https://wa.me/' + ORDER_WA + '?text=' + encodeURIComponent(lines.join('\n'));
     window.open(url, '_blank');
